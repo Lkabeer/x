@@ -9,11 +9,14 @@ $future: #ffe111;
 $typo: #20a0d0;
 $love: #c74565;
 
+html {
+    overflow: hidden;
+}
+
 html, body {
     margin: 0;
     height: 100%;
     font-family: 'Kaushan Script', cursive;
-    // overflow: hidden;
 }
 
 .menuX {
@@ -109,3 +112,9 @@ html, body {
     background-color: $love;
     background-image: url('../assets/loveX.gif');
 }
+
+@media only screen and (max-width: 992px) {
+    html {
+      overflow: none;
+    }
+  }

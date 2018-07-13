@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+html {
+  overflow: hidden; }
+
 html, body {
   margin: 0;
   height: 100%;
@@ -68,3 +71,7 @@ html, body {
 #bgImg-8 {
   background-color: #c74565;
   background-image: url("../assets/loveX.gif"); }
+
+@media only screen and (max-width: 992px) {
+  html {
+    overflow: none; } }
