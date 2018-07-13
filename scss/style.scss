@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+$work: #a06030;
+$idea: #36b1c5;
+$yourself: #a0c060;
+$aliens: #4e4a9d;
+$entertain: #f07020;
+$future: #ffe111;
+$typo: #20a0d0;
+$love: #c74565;
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Kaushan Script', cursive;
+    // overflow: hidden;
+}
+
+.menuX {
+    position: fixed;
+    top: 50%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+    
+    .indicatorX {
+        display: block;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        margin: 20px;
+    }
+
+    #work {
+        background-color: $work;
+    }
+
+    #idea {
+        background-color: $idea;
+    }
+
+    #yourself {
+        background-color: $yourself;
+    }
+
+    #aliens {
+        background-color: $aliens;
+    }
+
+    #entertain {
+        background-color: $entertain;
+    }
+
+    #future {
+        background-color: $future;
+    }
+
+    #typo {
+        background-color: $typo;
+    }
+
+    #love {
+        background-color: $love;
+    }
+}
+
+.bgImg {
+    // background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+#bgImg-1 {
+    background-color: $work;
+    background-image: url('../assets/workX.gif');
+}
+
+#bgImg-2 {
+    background-color: $idea;
+    background-image: url('../assets/ideasX.gif');
+}
+
+#bgImg-3 {
+    background-color: $yourself;
+    background-image: url('../assets/yourselfX.gif');
+}
+
+#bgImg-4 {
+    background-color: $aliens;
+    background-image: url('../assets/aliensX.gif');
+}
+
+#bgImg-5 {
+    background-color: $entertain;
+    background-image: url('../assets/entertainmentX.gif');
+}
+
+#bgImg-6 {
+    background-color: $future;
+    background-image: url('../assets/thefutureX.gif');
+}
+
+#bgImg-7 {
+    background-color: $typo;
+    background-image: url('../assets/typoX.gif');
+}
+
+#bgImg-8 {
+    background-color: $love;
+    background-image: url('../assets/loveX.gif');
+}

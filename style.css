@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html, body {
+	height: 100%;
+	margin: 0;
+	color: #777;
+	font: 400 15px/1.8 "Lato", sans-serif;
+	text-align: center;
+}
+
+.bgImg-1 {
+	background-image: url('assets/bmw100.jpg');
+	min-height: 100%;
+}
+
+.bgImg-2 {
+	background-image: url('assets/bmw101.jpg');
+	min-height: 40%;
+}
+
+.bgImg-3 {
+	background-image: url('assets/bmw102.jpg');
+	min-height: 40%;
+}
+
+.bgImg-4 {
+	background-image: url('assets/bmw103.jpg');
+	min-height: 100%;
+}
+
+.bgImg-1, .bgImg-2, .bgImg-3, .bgImg-4 {
+	position: relative;
+/*	opacity: 0.65;*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.caption span.border {
+	background-color: #111;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 18px 8px 18px 18px;
+	font-size: 1.5em;
+	letter-spacing: 10px;
+}
+
+.articleX {
+	background-color: #fff;
+	text-align: justify;
+	padding: 50px 80px;
+/*	height: 95%;*/
+}
+
+.articleX-1 {
+	background-color: #2B2E34;
+	color: #ddd;
+}
+
+h3 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	text-align: center;
+}

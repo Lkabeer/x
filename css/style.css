@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Kaushan Script', cursive; }
+
+.menuX {
+  position: fixed;
+  top: 50%;
+  right: 5%;
+  transform: translate(-50%, -50%); }
+  .menuX .indicatorX {
+    display: block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 20px; }
+  .menuX #work {
+    background-color: #a06030; }
+  .menuX #idea {
+    background-color: #36b1c5; }
+  .menuX #yourself {
+    background-color: #a0c060; }
+  .menuX #aliens {
+    background-color: #4e4a9d; }
+  .menuX #entertain {
+    background-color: #f07020; }
+  .menuX #future {
+    background-color: #ffe111; }
+  .menuX #typo {
+    background-color: #20a0d0; }
+  .menuX #love {
+    background-color: #c74565; }
+
+.bgImg {
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100%; }
+
+#bgImg-1 {
+  background-color: #a06030;
+  background-image: url("../assets/workX.gif"); }
+
+#bgImg-2 {
+  background-color: #36b1c5;
+  background-image: url("../assets/ideasX.gif"); }
+
+#bgImg-3 {
+  background-color: #a0c060;
+  background-image: url("../assets/yourselfX.gif"); }
+
+#bgImg-4 {
+  background-color: #4e4a9d;
+  background-image: url("../assets/aliensX.gif"); }
+
+#bgImg-5 {
+  background-color: #f07020;
+  background-image: url("../assets/entertainmentX.gif"); }
+
+#bgImg-6 {
+  background-color: #ffe111;
+  background-image: url("../assets/thefutureX.gif"); }
+
+#bgImg-7 {
+  background-color: #20a0d0;
+  background-image: url("../assets/typoX.gif"); }
+
+#bgImg-8 {
+  background-color: #c74565;
+  background-image: url("../assets/loveX.gif"); }
