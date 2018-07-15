@@ -72,7 +72,7 @@ html, body {
   background-color: #c74565;
   background-image: url("../assets/loveX.gif"); }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   html {
     overflow: auto; }
   .menuX {
