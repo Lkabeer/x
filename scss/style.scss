@@ -30,7 +30,7 @@ html, body {
         border-radius: 50%;
         width: 10px;
         height: 10px;
-        margin: 20px;
+        margin: 30px;
     }
 
     #work {
@@ -113,8 +113,25 @@ html, body {
     background-image: url('../assets/loveX.gif');
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
     html {
       overflow: auto;
+    }
+
+    .menuX {
+        text-align: center;
+        top: 80%;
+        right: 0;
+        width: 100%;
+        height: 50px;
+        transform: none;
+        
+        .indicatorX {
+            display: inline-block;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            margin: 30px;
+        }
     }
   }
