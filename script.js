@@ -49,6 +49,8 @@ var intervalX = setInterval(
         index++;
         if (index >= sectionsX.length) {
             index = 0;
+            eventFire(document.getElementById(sectionsX[index].id), 'click');
+            clearInterval(intervalX);
         }
         console.log(sectionsX[index].id);
         eventFire(document.getElementById(sectionsX[index].id), 'click');
