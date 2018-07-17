@@ -1,3 +1,7 @@
+var index = 0;
+var bgImgX = document.querySelectorAll('.bgImg');
+var sectionsX = [work, idea, yourself, aliens, entertain, future, typo, love];
+
 $(document).ready(function () {
     // Add smooth scrolling to all links
     $("a").on('click', function (event) {
@@ -22,3 +26,31 @@ $(document).ready(function () {
         } // End if
     });
 });
+
+function eventFire(el, etype) {
+    if (el.fireEvent) {
+        el.fireEvent('on' + etype);
+    } else {
+        var evObj = document.createEvent('Events');
+        evObj.initEvent(etype, true, false);
+        el.dispatchEvent(evObj);
+    }
+}
+
+for (var i = 0; i < bgImgX.length; i++) {
+    bgImgX[i].addEventListener('click', function () {
+        clearInterval(intervalX);
+        console.log('clear');
+    });
+}
+
+var intervalX = setInterval(
+    function () {
+        index++;
+        if (index >= sectionsX.length) {
+            index = 0;
+        }
+        console.log(sectionsX[index].id);
+        eventFire(document.getElementById(sectionsX[index].id), 'click');
+    }, 5000
+);
